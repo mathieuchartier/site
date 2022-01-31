@@ -1,0 +1,7 @@
+[submodule "themes/eureka"]
+	path = themes/eureka
+	url = https://github.com/wangchucheng/hugo-eureka.git
+[submodule "public"]
+	path = public
+	url = https://github.com/mathieuchartier/mathieuchartier.github.io.git
+	branch = master

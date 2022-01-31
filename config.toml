@@ -1,0 +1,27 @@
+baseURL = 'https://mathieuchartier.github.io/'
+languageCode = 'en-us'
+title = "Mathieu Chartier"
+theme = "eureka"
+
+[params]
+  title = "Software Engineering"
+  SEOTitle = "Mathieu Chartier Blog"
+  keyword = "Mathieu Chartier, Compression, Graphics, Rasterization, Intrinsics, Assembly, C++, Raytracing"
+ 
+  # Sidebar settings
+  sidebar_about_description = "Software Developer"
+  about_me = true
+
+  featured_tags = true 
+  featured_condition_size = 2
+
+  omit_categories = false
+
+  [[params.addtional_menus]]
+  title =  "ABOUT"
+  href =  "/top/about/"
+
+  [params.social]
+  email          = "mathieu.a.chartier@gmail.com"
+  linkedin       = "https://www.linkedin.com/in/mathieu-chartier-16b89423/"
+  github         = "https://github.com/mathieuchartier"
