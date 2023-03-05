@@ -2,6 +2,6 @@
 set -e
 printf "Building..."
 rm -rf public/*
-./hugo.exe -D
+hugo.exe -D
 
-./hugo.exe server
+hugo.exe server
